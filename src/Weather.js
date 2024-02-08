@@ -13,8 +13,8 @@ function Weather() {
         <div className="weather-details">
           <h2>London</h2>
           <p>
-            <span>Wednesday 12:25</span> <br />
-            <span>February 6,2024</span>
+            <span>Wednesday 2:25</span> <br />
+            <span>February 8,2024</span>
           </p>
           <p>
             Light Rain
