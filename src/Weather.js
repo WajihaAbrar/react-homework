@@ -65,9 +65,11 @@ function Weather() {
         </div>
       </section>
       <footer>
-        The project is built by <a href="">Wajiha Abrar</a>, code is
-        open-sourced on <a href="">GitHub</a> and hosted on{" "}
-        <a href="">Netlify</a>
+        The project is built by
+        <a href="https://github.com/WajihaAbrar">Wajiha Abrar</a>, code is
+        open-sourced on
+        <a href="https://github.com/WajihaAbrar/react-homework">GitHub</a> and
+        hosted on <a href="https://github.com/WajihaAbrar">Netlify</a>
       </footer>
     </div>
   );
