@@ -6,57 +6,69 @@ function Weather() {
     <div className="Weather">
       <h1>Weather App</h1>
       <form className="weather-form">
-        <input type="text" placeholder="Enter a city" />
+        <input
+          type="text"
+          className="search-input"
+          placeholder="Enter a city"
+        />
         <button className="search-button">Search</button>
       </form>
       <main className="weather-container">
         <div className="weather-details">
           <h2>London</h2>
-          <p>
+          <div className="date-time">
             <span>Wednesday 2:25</span> <br />
             <span>February 8,2024</span>
-          </p>
-          <p>
-            Light Rain
-            <br />
-            Humidity: 92%
-            <br />
-            Wind: 3mph
-          </p>
+          </div>
+          <div className="weather-conditions">
+            <p>
+              Light Rain
+              <br />
+              Humidity: 92%
+              <br />
+              Wind: 3mph
+            </p>
+          </div>
         </div>
-        <div className="temperature">
+        <div className="temperature-details">
           <p>
-            <span>🌧️</span> <span>7℃</span>
+            <span className="weather-icon">🌧️</span>
+            <span className="temperature">7℃</span>
           </p>
         </div>
       </main>
       <section className="weather-forecast">
         <div>
-          <p>Thursday</p>
-          <p>🌧️</p>
-          <p>12℃ | 4℃</p>
+          <p className="day">Thursday</p>
+          <p className="icon">🌧️</p>
+          <p className="forecast">12℃ | 4℃</p>
         </div>
         <div>
-          <p>Friday</p>
-          <p>🌦️</p>
-          <p>12℃ | 8℃</p>
+          <p className="day">Friday</p>
+          <p className="icon">🌦️</p>
+          <p className="forecast">12℃ | 8℃</p>
         </div>
         <div>
-          <p>Saturday</p>
-          <p>🌧️</p>
-          <p>12℃ | 5℃</p>
+          <p className="day">Saturday</p>
+          <p className="icon">🌧️</p>
+          <p className="forecast">12℃ | 5℃</p>
         </div>
         <div>
-          <p>Sunday</p>
-          <p>🌤️</p>
-          <p>10℃ | 3℃</p>
+          <p className="day">Sunday</p>
+          <p className="icon">🌤️</p>
+          <p className="forecast">10℃ | 3℃</p>
         </div>
         <div>
-          <p>Monday</p>
-          <p>🌦️</p>
-          <p>8℃ | 2℃</p>
+          <p className="day">Monday</p>
+          <p className="icon">🌦️</p>
+          <p className="forecast">8℃ | 2℃</p>
         </div>
       </section>
+      <footer>
+        The project is built by <a href="">Wajiha Abrar</a>, code is
+        open-sourced on <a href="">GitHub</a> and hosted on{" "}
+        <a href="">Netlify</a>
+      </footer>
     </div>
   );
 }

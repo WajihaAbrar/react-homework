@@ -1,16 +1,73 @@
+h1 {
+  color: white;
+  font-size: 38px;
+}
+h2 {
+  color: white;
+  font-size: 32px;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
 .Weather {
-  max-width: 50%;
+  width: 45%;
+  height: 70vh;
   margin: 0 auto;
-  background-color: aqua;
+  border-radius: 5px;
+  background-color: rgb(16, 104, 133);
   text-align: center;
+}
+.search-input {
+  width: 45%;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.search-button {
+  background-color: lightblue;
+  border: 1px solid white;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: black;
+  margin-left: 20px;
 }
 .weather-container {
   display: flex;
   justify-content: space-evenly;
 }
-
 .weather-forecast {
+  width: 75%;
+  margin: 0px auto;
+  border-radius: 5px;
   display: flex;
   justify-content: space-evenly;
-  background-color: yellow;
+  background-color: lightblue;
+}
+.weather-forecast .day {
+  font-size: 18px;
+}
+.weather-forecast .icon {
+  font-size: 24px;
+}
+.weather-forecast .forecast {
+  font-size: 16px;
+}
+.weather-details .date-time {
+  font-size: 12px;
+  font-style: italic;
+  color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+.temperature-details .weather-icon {
+  font-size: 30px;
+}
+
+.temperature-details .temperature {
+  font-size: 30px;
+  color: white;
+}
+
+.weather-conditions p {
+  color: lightblue;
 }
