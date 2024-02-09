@@ -1,5 +1,5 @@
 h1 {
-  color: white;
+  color: lightblue;
   font-size: 38px;
 }
 h2 {
@@ -11,7 +11,7 @@ h2 {
 }
 .Weather {
   width: 45%;
-  height: 70vh;
+  height: 75vh;
   margin: 0 auto;
   border-radius: 5px;
   background-color: rgb(16, 104, 133);
@@ -51,6 +51,9 @@ h2 {
 .weather-forecast .forecast {
   font-size: 16px;
 }
+.weather-forecast .forecast span {
+  font-weight: bold;
+}
 .weather-details .date-time {
   font-size: 12px;
   font-style: italic;
@@ -70,4 +73,12 @@ h2 {
 
 .weather-conditions p {
   color: lightblue;
+}
+
+footer a {
+  color: lightblue;
+}
+footer {
+  margin: 20px;
+  color: whitesmoke;
 }

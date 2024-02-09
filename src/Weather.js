@@ -41,35 +41,45 @@ function Weather() {
         <div>
           <p className="day">Thursday</p>
           <p className="icon">🌧️</p>
-          <p className="forecast">12℃ | 4℃</p>
+          <p className="forecast">
+            12℃ | <span>4℃</span>
+          </p>
         </div>
         <div>
           <p className="day">Friday</p>
           <p className="icon">🌦️</p>
-          <p className="forecast">12℃ | 8℃</p>
+          <p className="forecast">
+            12℃ | <span>8℃</span>
+          </p>
         </div>
         <div>
           <p className="day">Saturday</p>
           <p className="icon">🌧️</p>
-          <p className="forecast">12℃ | 5℃</p>
+          <p className="forecast">
+            12℃ | <span>5℃</span>
+          </p>
         </div>
         <div>
           <p className="day">Sunday</p>
           <p className="icon">🌤️</p>
-          <p className="forecast">10℃ | 3℃</p>
+          <p className="forecast">
+            10℃ | <span>3℃</span>
+          </p>
         </div>
         <div>
           <p className="day">Monday</p>
           <p className="icon">🌦️</p>
-          <p className="forecast">8℃ | 2℃</p>
+          <p className="forecast">
+            8℃ | <span>2℃</span>
+          </p>
         </div>
       </section>
       <footer>
-        The project is built by
+        The project is built by{" "}
         <a href="https://github.com/WajihaAbrar">Wajiha Abrar</a>, code is
-        open-sourced on
-        <a href="https://github.com/WajihaAbrar/react-homework">GitHub</a> and
-        hosted on <a href="https://github.com/WajihaAbrar">Netlify</a>
+        open-sourced on{" "}
+        <a href="https://github.com/WajihaAbrar/react-homework"> GitHub</a> and
+        hosted on <a href="https://react-app-homework.netlify.app/"> Netlify</a>
       </footer>
     </div>
   );
